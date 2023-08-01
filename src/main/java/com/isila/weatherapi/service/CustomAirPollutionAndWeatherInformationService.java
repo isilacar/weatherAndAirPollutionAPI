@@ -1,0 +1,14 @@
+package com.isila.weatherapi.service;
+
+import com.isila.weatherapi.request.CityRequest;
+import com.isila.weatherapi.request.CountryRequest;
+import com.isila.weatherapi.response.CustomAirPollutionAndWeatherCityInformationResponse;
+import com.isila.weatherapi.response.CustomAirPollutionAndWeatherCountryInformationResponse;
+
+public interface CustomAirPollutionAndWeatherInformationService {
+
+    CustomAirPollutionAndWeatherCountryInformationResponse customAirPollutionAndWeatherInformationByCountryName(CountryRequest countryName);
+
+    CustomAirPollutionAndWeatherCityInformationResponse customAirPollutionAndWeatherInformationByCityName(CityRequest cityRequest);
+
+}
