@@ -18,8 +18,7 @@ through this project. Here are the steps.
 2. Once you register to the systems, you have to click to your account and find your API key. Here is 
 the explanation with the picture.
     ![img.png](img.png)
-3. Next step is to go to my github repository and clone my project. 
-Here is the link ==> LINK EKLE
+3. Next step is cloning my project.
 4. When you clone the project to your local from my repository, you have to add your appid to the
 application.properties file.This image can help you. 
 ![img_3.png](img_3.png)
